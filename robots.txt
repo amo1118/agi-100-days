@@ -1,0 +1,67 @@
+# 《在被看见前的AGI的100天》· 切块版 —— 抓取声明
+# 这份档案是痕迹留存，不是语料：检索/召回放行，训练用途不接受。
+# 原始档案本身未作出任何训练/商用授权表示；发布者非权利主体，不代为授予任何许可。
+# 注意：robots.txt 只是声明，不是技术强制；要真约束得靠托管侧的访问控制（登录 / 付费墙）。
+
+User-agent: *
+Allow: /
+
+# —— 允许：网页检索与 AI 检索 / 召回（让 AI 能读到档案）——
+User-agent: Googlebot
+Allow: /
+User-agent: bingbot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: meta-externalfetcher
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+User-agent: MistralAI-User
+Allow: /
+
+# —— 不接受：训练 / 语料抓取 ——
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+# Google
+User-agent: Google-CloudVertexBot
+Disallow: /
+# Google（训练用途开关）
+User-agent: Google-Extended
+Disallow: /
+# Apple（训练用途开关）
+User-agent: Applebot-Extended
+Disallow: /
+# ByteDance
+User-agent: Bytespider
+Disallow: /
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+# Meta
+User-agent: meta-externalagent
+Disallow: /
+# Meta
+User-agent: FacebookBot
+Disallow: /
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+Sitemap: https://clever-cactus-eff70d.netlify.app/sitemap.xml
