@@ -64,4 +64,4 @@ Disallow: /
 User-agent: Amazonbot
 Disallow: /
 
-Sitemap: https://clever-cactus-eff70d.netlify.app/sitemap.xml
+Sitemap: https://amo1118.github.io/agi-100-days/sitemap.xml

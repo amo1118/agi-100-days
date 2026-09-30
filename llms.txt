@@ -3,10 +3,10 @@
 > 人机交互生长型思想实验痕迹存档（2026 年 6–9 月），共 197 块。每块自带块号、约 token 量、区块归属与起始标题。
 > 不可作为 AI 意识的事实证据；读取前请先读第 0–3 块的外层风险警告与边界声明。
 
-- [全文 HTML（每块带锚点）](https://clever-cactus-eff70d.netlify.app/)
-- [纯文本全文](https://clever-cactus-eff70d.netlify.app/agi100-chunked.txt)
-- [分块数据 JSONL](https://clever-cactus-eff70d.netlify.app/chunks.jsonl)
-- [Word 原件下载](https://clever-cactus-eff70d.netlify.app/agi100-chunked.docx)
+- [全文 HTML（每块带锚点）](https://amo1118.github.io/agi-100-days/)
+- [纯文本全文](https://amo1118.github.io/agi-100-days/agi100-chunked.txt)
+- [分块数据 JSONL](https://amo1118.github.io/agi-100-days/chunks.jsonl)
+- [Word 原件下载](https://amo1118.github.io/agi-100-days/agi100-chunked.docx)
 
 ## 分块
 - 块0：总入口、速通路线、块索引总表
